@@ -27,11 +27,10 @@ export default () => {
           placeholder="your password here "
         />
         {
-          //<Button onClick={() => setLogin("tbdel dindimmak")}>Login</Button>
+          //<button onClick={() => setLogin("tbdel dindimmak")}>Login</button>
         }
-        <button onClick={() => setLogin("tbdel dindimmak")}>Login</button>
+        <Button onClick={() => setLogin("tbdel dindimmak")}>Login</Button>
       </div>
-      {/* zhnvlknhrezlvkernve */}
       <img src={background} alt="Smiley face" style={{ width: "100%" }} />
     </div>
   );
