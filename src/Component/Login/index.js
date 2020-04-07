@@ -13,7 +13,6 @@ const container = {
   alignItems: "center",
   height: "500px",
 };
-
 export default () => {
   const [login, setLogin] = useState("ayhaja");
   console.log("hadi login: ", login);
@@ -27,7 +26,10 @@ export default () => {
           type="password"
           placeholder="your password here "
         />
-        <Button onClick={() => setLogin("tbdel dindimmak")}>Login</Button>
+        {
+          //<Button onClick={() => setLogin("tbdel dindimmak")}>Login</Button>
+        }
+        <button onClick={() => setLogin("tbdel dindimmak")}>Login</button>
       </div>
       <img src={background} alt="Smiley face" style={{ width: "100%" }} />
     </div>
