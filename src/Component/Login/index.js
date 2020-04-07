@@ -31,6 +31,7 @@ export default () => {
         }
         <button onClick={() => setLogin("tbdel dindimmak")}>Login</button>
       </div>
+      {/* zhnvlknhrezlvkernve */}
       <img src={background} alt="Smiley face" style={{ width: "100%" }} />
     </div>
   );
